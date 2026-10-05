@@ -1,8 +1,15 @@
-# README
+# interactor-test-ewbik
 
-1. Change readme to 1.0 stiffness on Bust 1 and Bust 2
-1. Change all materials to be two sided.
-1. Change stiffness force to be to 2 on Bust
-1. Change gravity power to be 1 on Bust
-1. Check Drag force is 0.4 on Bust
-1. Remove unused and duplicate physics bones.
+Test scenes for the EWBIK inverse kinematics solver as a Godot 4 project: simple bone chains, an arm, and full avatars.
+
+## What it is for
+
+Each scene sets the solver up on a known rig, from two- and three-bone chains up to humanoid avatars. The bundled addons import VRM avatars and correct bone directions on import.
+
+## Build and run
+
+Open `project.godot` in a Godot 4 editor built with the EWBIK module and open a scene in `ewbik_samples/scenes/`; a stock editor lacks the solver's node types.
+
+## Licence
+
+MIT; see `LICENSE`. The vendored addons keep their own terms.
